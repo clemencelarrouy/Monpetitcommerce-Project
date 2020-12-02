@@ -1,266 +1,384 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <title>Mon panier - MON PETIT COMMERCE </title>
-    <meta name="description" content="Accedez à notre panier de Mon Petit Commerce, la boutique parisienne spécialisée en 
-  prêt à porter luxe pour enfant avec personal shopper.">
-    <link rel="stylesheet" href ="../style/style.css"/>
-    <script src="https://kit.fontawesome.com/0228b58c2e.js" crossorigin="anonymous"></script> 
-</head>
+    <title>Mon panier - MON PETIT COMMERCE</title>
+    <meta
+      name="description"
+      content="Accedez à notre panier de Mon Petit Commerce, la boutique parisienne spécialisée en 
+  prêt à porter luxe pour enfant avec personal shopper."
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0228b58c2e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
+  <body>
+    <!---HAUT DE LA PAGE-->
+    <!--bmenu 1 fixed -->
 
-<body>
-<!---HAUT DE LA PAGE-->   
-<!--bmenu 1 fixed -->   
+    <header class="headerfix">
+      <div class="hdx">
+        <div class="logofix">
+          <a href="../index.html"
+            ><img
+              src="../photos/logo/logomenu.png"
+              alt="logomenu"
+              class="logomenu"
+          /></a>
+        </div>
 
-<header class="headerfix">
-    <div class="hdx">
-        <div class="logofix"><a href="../accueil.html"><img src="../photos/logo/logomenu.png" alt="logomenu" class="logomenu"></a></div>
-        
         <form class="recherche">
-            <input type="text" class="zonerecherche" placeholder="Recherche">
-            <button type="submit" class="boutonrecherche"> <i class="fas fa-search"></i> </button></form>
-        
-        
-            
+          <input type="text" class="zonerecherche" placeholder="Recherche" />
+          <button type="submit" class="boutonrecherche">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+
         <ul>
-            <li><a href="moncompte.html"> Mon compte </a></li>
-            <li><a href="monpanier.html"> Mon Panier </a></li>
-            <li><form class="langue"> 
-                <label for="langue"></label> 
-                <select name="langue" id="langue" class="langue"> 
-                    <option value="Français"> Français</option>
-                    <option value="English"> English</option>
-                </select></form></li>
+          <li><a href="moncompte.html"> Mon compte </a></li>
+          <li><a href="monpanier.html"> Mon Panier </a></li>
+          <li>
+            <form class="langue">
+              <label for="langue"></label>
+              <select name="langue" id="langue" class="langue">
+                <option value="Français">Français</option>
+                <option value="English">English</option>
+              </select>
+            </form>
+          </li>
         </ul>
+      </div>
+    </header>
 
-    </div>
-</header>
-                    
- <!-- fin menu1fixed-->
+    <!-- fin menu1fixed-->
 
+    <!--logo-->
+    <p class="logo">
+      <a href="../index.html">
+        <img
+          src="../photos/logo/logolpc.png"
+          alt="logo"
+          title="monpetitcommerce"
+      /></a>
+    </p>
 
-<!--logo-->   
-<p class="logo"><a href="../Accueil.html"> <img src="../photos/logo/logolpc.png" alt="logo" title="monpetitcommerce"></a></p>
+    <!--menu deroulant-->
 
+    <nav id="main-nav">
+      <ul>
+        <li>
+          <a href="Garçons.html">GARÇON</a>
+          <ul class="submenu">
+            <li><a href="manteauxg.html">Manteaux</a></li>
+            <li><a href="maillesg.html">Mailles</a></li>
+            <li><a href="teeshirtsG.html">Tee-shits</a></li>
+            <li><a href="pantalong.html">Pantalons </a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="Filles.html">FILLE</a>
+          <ul class="submenu">
+            <li><a href="manteauxf.html">Manteaux</a></li>
+            <li><a href="maillesf.html">Mailles</a></li>
+            <li><a href="teeshirtsf.html">Tee-shirts</a></li>
+            <li><a href="robef.html">Robes </a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="quisommesnous.html">BOUTIQUE</a>
+          <ul class="submenu">
+            <li><a href="quisommesnous.html">Qui sommes nous ?</a></li>
+            <li><a href="personnalshopperpresse.html">Personal Shopper</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
 
+    <!-- FIN DE NAVIGATION-->
+    <div class="containte">
+      <!--CORPS DE MA PAGE-->
 
- <!--menu deroulant-->
-       
- <nav id="main-nav">
-    <ul>
-      <li> <a href="Garçons.html">GARÇON</a>
-        <ul class="submenu"> 
-            <li> <a href="manteauxg.html">Manteaux</a> </li>
-            <li> <a href="maillesg.html">Mailles</a> </li> 
-            <li> <a href="teeshirtsG.html">Tee-shits</a> </li>
-            <li> <a href="pantalong.html">Pantalons </a> </li>
-        </ul>
-      </li>
-      <li> <a href="Filles.html">FILLE</a>
-        <ul class="submenu"> 
-            <li> <a href="manteauxf.html">Manteaux</a> </li>
-            <li> <a href="maillesf.html">Mailles</a> </li> 
-            <li> <a href="teeshirtsf.html">Tee-shirts</a> </li>
-            <li> <a href="robef.html">Robes </a> </li>
-        </ul>
-      </li>
-      <li> <a href="quisommesnous.html">BOUTIQUE</a>
-        <ul class="submenu"> 
-            <li> <a href="quisommesnous.html">Qui sommes nous ?</a> </li>
-            <li> <a href="personnalshopperpresse.html">Personal Shopper</a> </li> 
-            <li> <a href="contact.html">Contact</a> </li>
-        </ul>
-      </li>
-    </ul>
-  </nav>     
-           
-     
-     
-<!-- FIN DE NAVIGATION-->
-<div class="containte">
-    <!--CORPS DE MA PAGE-->
+      <h1>MON PANIER</h1>
 
-
-
-    <h1> MON PANIER</h1>
-
-    <table class="tableau-style">
+      <table class="tableau-style">
         <thead>
-            <tr>
-                <th>Produit</th>
-                <th>Référence</th>
-                <th>Taille</th>
-                <th>Prix</th>
-                <th>Quantité</th>
-                <th>Total</th>
-            </tr>
+          <tr>
+            <th>Produit</th>
+            <th>Référence</th>
+            <th>Taille</th>
+            <th>Prix</th>
+            <th>Quantité</th>
+            <th>Total</th>
+          </tr>
         </thead>
-    <tbody>
-        <tr> 
-            <td class="colonne1-panier"> <a href="produits/fille-manteau-4.html"><img src="../photos/panier/manteau-P00516175.jpg" alt="manteau" title="manteaufille"></a>  </td>
-            <td><a href="produits/fille-manteau-4.html"> Veste Monogramme Burberry</a> </td>
-            <td> S </td>
-            <td> 670€ </td>
-            <td> 1 </td>
-            <td> 670€ </td>
-        </tr>
+        <tbody>
+          <tr>
+            <td class="colonne1-panier">
+              <a href="produits/fille-manteau-4.html"
+                ><img
+                  src="../photos/panier/manteau-P00516175.jpg"
+                  alt="manteau"
+                  title="manteaufille"
+              /></a>
+            </td>
+            <td>
+              <a href="produits/fille-manteau-4.html">
+                Veste Monogramme Burberry</a
+              >
+            </td>
+            <td>S</td>
+            <td>670€</td>
+            <td>1</td>
+            <td>670€</td>
+          </tr>
 
-        <tr> 
-            <td class="bgc-pink"> <a href="produits/fille-robe-1.html"><img src="../photos/panier/robe-P00407611.jpg" alt="robe" title="robefille"> </a></td>
-            <td class="bgc-pink"><a href="produits/fille-robe-1.html"> Robe imprimé Fendi</a> </td>
-            <td class='bgc-pink'> S </td>
-            <td class="bgc-pink"> 390€ </td>
-            <td class="bgc-pink"> 1 </td>
-            <td class="bgc-pink"> 390€ </td>
-        </tr>
+          <tr>
+            <td class="bgc-pink">
+              <a href="produits/fille-robe-1.html"
+                ><img
+                  src="../photos/panier/robe-P00407611.jpg"
+                  alt="robe"
+                  title="robefille"
+                />
+              </a>
+            </td>
+            <td class="bgc-pink">
+              <a href="produits/fille-robe-1.html"> Robe imprimé Fendi</a>
+            </td>
+            <td class="bgc-pink">S</td>
+            <td class="bgc-pink">390€</td>
+            <td class="bgc-pink">1</td>
+            <td class="bgc-pink">390€</td>
+          </tr>
 
-        <tr> 
-            <td><a href="produits/fille-maille-1.html"><img src="../photos/produits/filles/maille/maille1/maille-P00397617.jpg" alt="maille" title="maillefille"></a> </td>
-            <td> <a href="produits/fille-maille-1.html">Pull en laine Gucci</a></td>
-            <td> M </td>
-            <td> 280€ </td>
-            <td> 1 </td>
-            <td> 280€ </td>
-        </tr>
-        
-        <tr> 
-            <td class="bgc-pink"> <a href="produits/garcon-teeshirt-2.html"><img src="../photos/panier/tshirt-P00501308.jpg" alt="teeshirt" title="teeshirtgarcon"></a></td>
-            <td class="bgc-pink"> <a href="produits/garcon-teeshirt-2.html">T-shirt imprimé Marc Jacobs</a></td>
-            <td class="bgc-pink"> S </td>
-            <td class="bgc-pink"> 90€ </td>
-            <td class="bgc-pink"> 1 </td>
-            <td class="bgc-pink"> 90€ </td>
-        </tr>
-        <tr> 
-            <td > <a href="produits/garcon-pantalon-1.html"><img src="../photos/panier/jean-P00509130.jpg" alt="pantalon" title="pantalongarcon"></a> </td>
-            <td> <a href="produits/garcon-pantalon-1.html">Pantalon en velours Caramel </a></td>
-            <td> 23 </td>
-            <td> 195€ </td>
-            <td> 1 </td>
-            <td> 195€ </td>
-        </tr>
-    </tbody>
-</table>
+          <tr>
+            <td>
+              <a href="produits/fille-maille-1.html"
+                ><img
+                  src="../photos/produits/filles/maille/maille1/maille-P00397617.jpg"
+                  alt="maille"
+                  title="maillefille"
+              /></a>
+            </td>
+            <td>
+              <a href="produits/fille-maille-1.html">Pull en laine Gucci</a>
+            </td>
+            <td>M</td>
+            <td>280€</td>
+            <td>1</td>
+            <td>280€</td>
+          </tr>
 
+          <tr>
+            <td class="bgc-pink">
+              <a href="produits/garcon-teeshirt-2.html"
+                ><img
+                  src="../photos/panier/tshirt-P00501308.jpg"
+                  alt="teeshirt"
+                  title="teeshirtgarcon"
+              /></a>
+            </td>
+            <td class="bgc-pink">
+              <a href="produits/garcon-teeshirt-2.html"
+                >T-shirt imprimé Marc Jacobs</a
+              >
+            </td>
+            <td class="bgc-pink">S</td>
+            <td class="bgc-pink">90€</td>
+            <td class="bgc-pink">1</td>
+            <td class="bgc-pink">90€</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="produits/garcon-pantalon-1.html"
+                ><img
+                  src="../photos/panier/jean-P00509130.jpg"
+                  alt="pantalon"
+                  title="pantalongarcon"
+              /></a>
+            </td>
+            <td>
+              <a href="produits/garcon-pantalon-1.html"
+                >Pantalon en velours Caramel
+              </a>
+            </td>
+            <td>23</td>
+            <td>195€</td>
+            <td>1</td>
+            <td>195€</td>
+          </tr>
+        </tbody>
+      </table>
 
-<div class="pied-panier">
+      <div class="pied-panier">
+        <div class="codepromo">
+          <p>
+            Moyen de paiement acceptés : <br />
+            <i class="fab fa-cc-paypal" style="font-size: 38px"></i>
+            <i class="fab fa-cc-visa" style="font-size: 38px"></i>
+            <i class="fab fa-cc-mastercard" style="font-size: 38px"></i>
+            <i class="fab fa-cc-apple-pay" style="font-size: 38px"></i>
+          </p>
 
-    <div class="codepromo"> 
-        <p>Moyen de paiement acceptés : <br/>
-            <i class="fab fa-cc-paypal" style='font-size:38px;'></i> <i class="fab fa-cc-visa" style='font-size:38px;'></i> <i 
-            class="fab fa-cc-mastercard" style='font-size:38px;'></i> <i class="fab fa-cc-apple-pay" style='font-size:38px;'></i>
+          Code promo :
+          <form class="recherche">
+            <input type="text" class="zonerecherche" placeholder="Recherche" />
+            <button type="submit" class="boutonrecherche">
+              <i class="fas fa-search"></i></button
+            ><br />
+          </form>
+        </div>
+
+        <div class="totalpanier">
+          <p>
+            SOUS-TOTAL : 1450 € <br />
+            TVA et Frais de port inclus.<br />
+            TOTAL : 1450€
+          </p>
+
+          <form>
+            <button type="submit" class="boutonrecherche">
+              VALIDER MON PANIER
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- FIN DE LA PAGE-->
+    </div>
+    <!--BANNIERE SERVICE-->
+
+    <div class="ban-service">
+      <div class="colonne-service">
+        <p><i class="fas fa-truck"></i></p>
+        <h5>LIVRAISON GRATUITE</h5>
+        <p>
+          à partir de 99€ <br />
+          ou en boutique.
         </p>
-        
-        Code promo : 
-        <form class="recherche">
-                <input type="text" class="zonerecherche" placeholder="Recherche">
-                <button type="submit" class="boutonrecherche"> <i class="fas fa-search"></i> </button><br/></form>
-    </div>
+      </div>
 
-
-
-
-    <div class="totalpanier"> <p>SOUS-TOTAL : 1450 € <br/>
-        TVA et Frais de port inclus.<br/>
-        TOTAL : 1450€</p>
-
-        <form><button type="submit" class="boutonrecherche"> VALIDER MON PANIER </button></form>
-    </div>
-
-</div>
-
-
-
-    
-<!-- FIN DE LA PAGE-->
-</div>
-<!--BANNIERE SERVICE-->
-
-<div class="ban-service">
-
-    <div class="colonne-service">
-        <p><i class="fas fa-truck"></i> </p> 
-        <h5>LIVRAISON GRATUITE</h5> 
-        <p>à partir de 99€ <br/> ou en boutique.</p>
-
-    </div>
-
-    <div class="colonne-service">
-        <p> <i class="fas fa-lock"></i> </p> 
+      <div class="colonne-service">
+        <p><i class="fas fa-lock"></i></p>
         <h5>PAIEMENT SECURISÉ</h5>
-        <p>Visa, mastercard, amex,<br/> paypal, wechat, apple pay.</p>
-    </div>
+        <p>
+          Visa, mastercard, amex,<br />
+          paypal, wechat, apple pay.
+        </p>
+      </div>
 
-    <div class="colonne-service">
-        <p> <i class="fas fa-history"></i></p>
-        <h5> RETOUR GRATUIT</h5>
-        <p> Échange et remboursement <br/>sous 30 jours.</p>
-    </div>
+      <div class="colonne-service">
+        <p><i class="fas fa-history"></i></p>
+        <h5>RETOUR GRATUIT</h5>
+        <p>Échange et remboursement <br />sous 30 jours.</p>
+      </div>
 
-    <div class="colonne-service">
-        <p> <i class="fas fa-store-alt"></i></p>
+      <div class="colonne-service">
+        <p><i class="fas fa-store-alt"></i></p>
         <h5>RETRAIT EN BOUTIQUE</h5>
-        <p> Réservez en ligne, <br/> disponible en boutique !</p>
+        <p>
+          Réservez en ligne, <br />
+          disponible en boutique !
+        </p>
+      </div>
     </div>
 
-</div>
+    <div class="newletter-footer">
+      <form action="post">
+        <label for="newletter"> </label>
+        <input
+          type="email"
+          name="newletter"
+          class="mailnl"
+          id="newletter"
+          placeholder="recevez notre newletter"
+        />
+        <button type="submit" class="button">S'inscrire</button>
+      </form>
+    </div>
 
-<div class="newletter-footer">
-<form action="post"> <label for="newletter"> </label>
-    <input type="email" name="newletter" class="mailnl" id="newletter" placeholder="recevez notre newletter" >
-    <button type="submit" class="button"> S'inscrire</button>
-    </form>
-</div>
-
-
-<footer> <!--FOOTER-->
-    <div class="contenu-footer">
-
+    <footer>
+      <!--FOOTER-->
+      <div class="contenu-footer">
         <div class="colonne-footer">
-            <h4> Nos Services</h4>
-            <ul class="liste-services">
-                <li> <a href="monpanier.html" title="Achetez-moi ! ">Mon panier </a></li>
-                <li> <a href="personnalshopperpresse.html" title="Personnal Shopper">Personal-shopper</a></li>
-                <li> <a href="personnalshopperpresse.html#ancrepresse" title="presse">Presse</a></li>
-            </ul> 
+          <h4>Nos Services</h4>
+          <ul class="liste-services">
+            <li>
+              <a href="monpanier.html" title="Achetez-moi ! ">Mon panier </a>
+            </li>
+            <li>
+              <a href="personnalshopperpresse.html" title="Personnal Shopper"
+                >Personal-shopper</a
+              >
+            </li>
+            <li>
+              <a href="personnalshopperpresse.html#ancrepresse" title="presse"
+                >Presse</a
+              >
+            </li>
+          </ul>
         </div>
 
-
         <div class="colonne-footer">
-            <h4>Contact</h4>
-            <ul>
-            <li><a href="quisommesnous.html" title="Qui sommes nous ? "> à propos</a></li>
-            <li> <a href="tel:0680515668" title="telephone">telephone</a></li>
-            <li><a href="mailto:contact@lpc.com" title="E-Mail"> Nous ecrire</a></li>
-            
-        </ul>
+          <h4>Contact</h4>
+          <ul>
+            <li>
+              <a href="quisommesnous.html" title="Qui sommes nous ? ">
+                à propos</a
+              >
+            </li>
+            <li><a href="tel:0680515668" title="telephone">telephone</a></li>
+            <li>
+              <a href="mailto:contact@lpc.com" title="E-Mail"> Nous ecrire</a>
+            </li>
+            <li>
+              <a href="recrutement.html" title="recrutement"> Recrutement</a>
+            </li>
+          </ul>
         </div>
 
         <div class="colonne-footer">
-            <h4> Besoin d'aide ?</h4>
-            <ul class="liste-reseaux">
-            <li> <a href="plandusite.html" title="Plan du site">Plan du site</a></li>
-            <li> <a href="#" onclick="javascript:window.print()">Imprimer la page</a></li>
-            <li> <a href="mentionslegales.html" title="Mentions légales">Mentions légales</a></li>
-            <li> <a href="cgdv.html" title="Conditions Générales de Ventes">CGV</a></li>
-            </ul> 
+          <h4>Besoin d'aide ?</h4>
+          <ul class="liste-reseaux">
+            <li>
+              <a href="plandusite.html" title="Plan du site">Plan du site</a>
+            </li>
+            <li>
+              <a href="#" onclick="javascript:window.print()"
+                >Imprimer la page</a
+              >
+            </li>
+            <li>
+              <a href="mentionslegales.html" title="Mentions légales"
+                >Mentions légales</a
+              >
+            </li>
+            <li>
+              <a href="cgdv.html" title="Conditions Générales de Ventes">CGV</a>
+            </li>
+          </ul>
         </div>
-
-        
 
         <div class="reseaux">
-            <a href="https://www.facebook.com/" title="Likez notre page !"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/" title="Abonnez-vous !"> <i class="fab fa-instagram"></i> </a>
-            <a href="https://www.twitter.com/" title="Suivez-nous!"> <i class="fab fa-twitter"></i></a>
-            <a href="https://www.youtube.com/" title="Lâchez un pouce bleu!"> <i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/" title="Likez notre page !"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/" title="Abonnez-vous !">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.twitter.com/" title="Suivez-nous!">
+            <i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.youtube.com/" title="Lâchez un pouce bleu!">
+            <i class="fab fa-youtube"></i
+          ></a>
         </div>
-</div>
-</footer> <!-- FIN DU FOOTER-->
-
-</body>
-
-
+      </div>
+    </footer>
+    <!-- FIN DU FOOTER-->
+  </body>
 </html>

@@ -1,329 +1,419 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <title>Personal Shopper- MON PETIT COMMERCE </title>
-    <meta name="description" content="Decouvrez le Personal shopper de Mon Petit Commerce, la boutique parisienne spécialisée en 
-  prêt à porter luxe pour enfant.">
+    <title>Personal Shopper- MON PETIT COMMERCE</title>
+    <meta
+      name="description"
+      content="Decouvrez le Personal shopper de Mon Petit Commerce, la boutique parisienne spécialisée en 
+  prêt à porter luxe pour enfant."
+    />
 
-    <link rel="stylesheet" href="../style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../style/jquery-ui.css" />
     <link rel="stylesheet" href="../style/style.css" />
-    
+
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="../style/datepickerfr.js"></script>
     <script src="../style/jqueryMPC.js"></script>
-    <script src="https://kit.fontawesome.com/0228b58c2e.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/0228b58c2e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-
-<body>
+  <body>
     <!--HAUT DE LA PAGE-->
     <!--bmenu 1 fixed -->
 
     <header class="headerfix">
-        <div class="hdx">
-            <div class="logofix"><a href="../accueil.html"><img src="../photos/logo/logomenu.png" alt="logomenu" class="logomenu"></a>
-            </div>
-
-            <form class="recherche">
-                <input type="text" class="zonerecherche" placeholder="Recherche">
-                <button type="submit" class="boutonrecherche"> <i class="fas fa-search"></i> </button></form>
-
-
-
-            <ul>
-                <li><a href="moncompte.html"> Mon compte </a></li>
-                <li><a href="monpanier.html"> Mon Panier </a></li>
-                <li>
-                    <form class="langue">
-                        <label for="langue"></label>
-                        <select name="langue" id="langue" class="langue">
-                            <option value="Français"> Français</option>
-                            <option value="English"> English</option>
-                        </select></form>
-                </li>
-            </ul>
-
+      <div class="hdx">
+        <div class="logofix">
+          <a href="../index.html"
+            ><img
+              src="../photos/logo/logomenu.png"
+              alt="logomenu"
+              class="logomenu"
+          /></a>
         </div>
+
+        <form class="recherche">
+          <input type="text" class="zonerecherche" placeholder="Recherche" />
+          <button type="submit" class="boutonrecherche">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+
+        <ul>
+          <li><a href="moncompte.html"> Mon compte </a></li>
+          <li><a href="monpanier.html"> Mon Panier </a></li>
+          <li>
+            <form class="langue">
+              <label for="langue"></label>
+              <select name="langue" id="langue" class="langue">
+                <option value="Français">Français</option>
+                <option value="English">English</option>
+              </select>
+            </form>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <!-- fin menu1fixed-->
 
-
     <!--logo-->
-    <p class="logo"><a href="../Accueil.html"> <img src="../photos/logo/logolpc.png" alt="logo" title="monpetitcommerce"></a></p>
-
-
+    <p class="logo">
+      <a href="../index.html">
+        <img
+          src="../photos/logo/logolpc.png"
+          alt="logo"
+          title="monpetitcommerce"
+      /></a>
+    </p>
 
     <!--menu deroulant-->
 
     <nav id="main-nav">
-        <ul>
-            <li> <a href="Garçons.html">GARÇON</a>
-                <ul class="submenu">
-                    <li> <a href="manteauxg.html">Manteaux</a> </li>
-                    <li> <a href="maillesg.html">Mailles</a> </li>
-                    <li> <a href="teeshirtsG.html">Tee-shirts</a> </li>
-                    <li> <a href="pantalong.html">Pantalons </a> </li>
-                </ul>
-            </li>
-            <li> <a href="Filles.html">FILLE</a>
-                <ul class="submenu">
-                    <li> <a href="manteauxf.html">Manteaux</a> </li>
-                    <li> <a href="maillesf.html">Mailles</a> </li>
-                    <li> <a href="teeshirtsf.html">Tee-shits</a> </li>
-                    <li> <a href="robef.html">Robes </a> </li>
-                </ul>
-            </li>
-            <li> <a href="quisommesnous.html">BOUTIQUE</a>
-                <ul class="submenu">
-                    <li> <a href="quisommesnous.html">Qui sommes nous ?</a> </li>
-                    <li> <a href="personnalshopperpresse.html">Personal Shopper</a> </li>
-                    <li> <a href="contact.html">Contact</a> </li>
-                </ul>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a href="Garçons.html">GARÇON</a>
+          <ul class="submenu">
+            <li><a href="manteauxg.html">Manteaux</a></li>
+            <li><a href="maillesg.html">Mailles</a></li>
+            <li><a href="teeshirtsG.html">Tee-shirts</a></li>
+            <li><a href="pantalong.html">Pantalons </a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="Filles.html">FILLE</a>
+          <ul class="submenu">
+            <li><a href="manteauxf.html">Manteaux</a></li>
+            <li><a href="maillesf.html">Mailles</a></li>
+            <li><a href="teeshirtsf.html">Tee-shits</a></li>
+            <li><a href="robef.html">Robes </a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="quisommesnous.html">BOUTIQUE</a>
+          <ul class="submenu">
+            <li><a href="quisommesnous.html">Qui sommes nous ?</a></li>
+            <li><a href="personnalshopperpresse.html">Personal Shopper</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
     </nav>
 
-
-
     <!-- FIN DE NAVIGATION-->
-<div class="containte">
-    <!--CORPS DE MA PAGE-->
+    <div class="containte">
+      <!--CORPS DE MA PAGE-->
 
-    <div class="ban-plandusite"><img src="../photos/personalshopper/ban-personalshopper2.jpg" alt="ban-personalshopper"
-        name="ban-personalshopper" class="photoplandusite">
-   <h2 class="titreplan">NOTRE PERSONAL SHOPPER</h2></div>
-   
+      <div class="ban-plandusite">
+        <img
+          src="../photos/personalshopper/ban-personalshopper2.jpg"
+          alt="ban-personalshopper"
+          name="ban-personalshopper"
+          class="photoplandusite"
+        />
+        <h2 class="titreplan">NOTRE PERSONAL SHOPPER</h2>
+      </div>
 
-<!--formulaire personal shopper-->
-<div class="introps">
-
-    <h2> UN PERSONAL SHOPPER A VOTRE SERVICE</h2>
-    <div class="texteps">
-
-        <p>     Inculquez les codes de la mode à vos tout-petits grâce à    notre sélection de pièces originales qui
-            rendront leurs jeux d'enfants bien plus amusants. Explorez les collections de vos créateurs favoris,
-            regroupant des vêtements de marque Enfant au style affirmé. Notre équipe a parcouru le monde entier pour
-            dénicher les dernières tendances en matière de mode Enfant.</p>
-           
-        <p> Grâce à notre personnal shopper, Nous accompagnons les plus jeunes pour un shopping personnalisé, un moment 
-            rien qu’à eux pour decouvrir en toute confiance l'univers de la mode, et selaissez guider en toute confiance.Un diagnostic basé sur une écoute attentive respectant leurs aspirations, suivi d’un bilan personnalisé et d’un plan d’actions visant à valoriser le developpement de leurs créativité et personnalité.</p>
-            
-        <p><strong>N'hesitez pas à nous contacter pour prendre rendez vous avec notre personnal shopper.</strong></p>
-    </div>
-
-
-    <div class="resaps">
-        <p> Vous souhaitez benificier d'une séances avec Marina notre <strong>professionelle en Image</strong> ? merci de renseignez vos 
-            coordonnez et nous vous rappelerons dès que possible pour convenir du rendez-vous !</p>
-        
-        <div class="formulaire">
-            <form method="post" action="traitement.php">
-                <label for="prénom"> </label>
-                    <input type="text" id="prénom" name="prénom" placeholder="Prénom*" required > 
-                <label for="nom"> </label>
-                    <input type="text" id="nom" name="nom" placeholder="Nom*" required > <br/>
-                <label for="email"> </label>
-                    <input type="email" id="email" name="email" placeholder="E-mail*" required  > 
-                <label for="telephone"> </label>
-                    <input type="number" id="telephone" name="telephone"placeholder="Téléphone" > <br/>
-
-                    <input class="date_calendrier" type="text" placeholder="date"> <br/>
-
-                    <input type="submit" value="Envoyer" class="button">
-            </form>
-        </div>
-    </div>
-
-</div>
-
-
-<div class="photops">
-    <img src="../photos/personalshopper/personalshopper1.jpg" alt="personalshopper" name="personalshopper" >
-    <img src="../photos/personalshopper/personalshopper2.jpg" alt="personalshopper" name="personalshopper" >
-</div>
-
-
-<!--coté presse-->
-
-<!--acticle presse-->
-<div class="introps" id="ancrepresse">
-    <h2>ILS PARLENT DE NOUS</h2>
+      <!--formulaire personal shopper-->
+      <div class="introps">
+        <h2>UN PERSONAL SHOPPER A VOTRE SERVICE</h2>
         <div class="texteps">
-            <p> <em> <strong>Vogue, parution le 13 Janvier 2020</strong></em> <br/>
-                Dans cet article paru il y a quelques mois retrouvez Marina notre conseillère en image : son parcours aux Galeries Lafayette avant d'intégrer Mon Petit Commerce, ses conseils ainsi que ses ambitions. <br/>
-                <a href="http://vogue.fr"> Retrouvez l'intégralité de l'article ici </a>
-            </p>
+          <p>
+            Inculquez les codes de la mode à vos tout-petits grâce à notre
+            sélection de pièces originales qui rendront leurs jeux d'enfants
+            bien plus amusants. Explorez
+            <strong>les collections de vos créateurs favoris</strong>,
+            regroupant des vêtements de marque Enfant au style affirmé. Notre
+            équipe a parcouru le monde entier pour dénicher les dernières
+            tendances en matière de mode Enfant.
+          </p>
+
+          <p>
+            Grâce à notre <strong>personal shopper</strong>, Nous accompagnons
+            les plus jeunes pour un shopping personnalisé, un moment rien qu’à
+            eux pour decouvrir en toute confiance l'univers de la mode, et se
+            laissez guider en toute confiance. Un diagnostic basé sur une écoute
+            attentive respectant leurs aspirations, suivi d’un
+            <strong>bilan personnalisé</strong> et d’un plan d’actions visant à
+            valoriser le developpement de leurs
+            <strong>créativité et personnalité.</strong>
+          </p>
+
+          <p>
+            <strong
+              >N'hesitez pas à nous contacter pour prendre rendez vous avec
+              notre personnal shopper.</strong
+            >
+          </p>
         </div>
-                
-    <div class="resaps">
-        <img src="../photos/personalshopper/article.jpg"> 
-    </div>
-</div>
-                
-<!--evenement -->
-<div class="introps" id="ancrepresse">
-    <h2>EVENEMENTS</h2>
+
+        <div class="resaps">
+          <p>
+            Vous souhaitez benificier d'une séances avec Marina notre
+            <strong>professionelle en Image</strong> ? merci de renseignez vos
+            coordonnez et nous vous rappelerons dès que possible pour convenir
+            du rendez-vous !
+          </p>
+
+          <div class="formulaire">
+            <form method="post" action="traitement.php">
+              <label for="prénom"> </label>
+              <input
+                type="text"
+                id="prénom"
+                name="prénom"
+                placeholder="Prénom*"
+                required
+              />
+              <label for="nom"> </label>
+              <input
+                type="text"
+                id="nom"
+                name="nom"
+                placeholder="Nom*"
+                required
+              />
+              <br />
+              <label for="email"> </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="E-mail*"
+                required
+              />
+              <label for="telephone"> </label>
+              <input
+                type="number"
+                id="telephone"
+                name="telephone"
+                placeholder="Téléphone"
+              />
+              <br />
+
+              <input class="date_calendrier" type="text" placeholder="date" />
+              <br />
+
+              <input type="submit" value="Envoyer" class="button" />
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="photops">
+        <img
+          src="../photos/personalshopper/personalshopper1.jpg"
+          alt="personalshopper"
+          name="personalshopper"
+        />
+        <img
+          src="../photos/personalshopper/personalshopper2.jpg"
+          alt="personalshopper"
+          name="personalshopper"
+        />
+      </div>
+
+      <!--coté presse-->
+
+      <!--acticle presse-->
+      <div class="introps" id="ancrepresse">
+        <h2>ILS PARLENT DE NOUS</h2>
+        <div class="texteps">
+          <p>
+            <em> <strong>Vogue, parution le 13 Janvier 2020</strong></em> <br />
+            Dans cet article paru il y a quelques mois retrouvez Marina notre
+            conseillère en image : son parcours aux Galeries Lafayette avant
+            d'intégrer Mon Petit Commerce, ses conseils ainsi que ses ambitions.
+            <br />
+            <a href="http://vogue.fr">
+              <strong>Retrouvez l'intégralité de l'article ici</strong>
+            </a>
+          </p>
+        </div>
+
+        <div class="resaps">
+          <img src="../photos/personalshopper/article.jpg" />
+        </div>
+      </div>
+
+      <!--evenement -->
+      <div class="introps" id="ancrepresse">
+        <h2>EVENEMENTS</h2>
         <div class="texteven">
-            <p>  
-                Nous organisons régulièrement des soirées privées auquelles nous invitons nos clients les plus fidèles. N'hésitez pas à nous suivre sur les réseaux sociaux pour vous tenir informé des prochains évènements que nous organiserons. 
-            </p>
+          <p>
+            Nous organisons régulièrement des soirées privées auquelles nous
+            invitons nos clients les plus fidèles. N'hésitez pas à nous suivre
+            sur les réseaux sociaux pour vous tenir informé des prochains
+            évènements que nous organiserons.
+          </p>
         </div>
-                
-        <div class="divvideo"> 
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/qiqwD61aEQs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               
-            </div>
 
-            <div class="video">  
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/YgND6RlyeUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               
-            </div>
+        <div class="divvideo">
+          <div class="video">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/qiqwD61aEQs"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="video">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/YgND6RlyeUU"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
+      </div>
+
+      <!-- FIN DE LA PAGE-->
     </div>
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- FIN DE LA PAGE-->
-</div>
     <!--BANNIERE SERVICE-->
 
     <div class="ban-service">
+      <div class="colonne-service">
+        <p><i class="fas fa-truck"></i></p>
+        <h5>LIVRAISON GRATUITE</h5>
+        <p>
+          à partir de 99€ <br />
+          ou en boutique.
+        </p>
+      </div>
 
-        <div class="colonne-service">
-            <p><i class="fas fa-truck"></i> </p>
-            <h5>LIVRAISON GRATUITE</h5>
-            <p>à partir de 99€ <br /> ou en boutique.</p>
+      <div class="colonne-service">
+        <p><i class="fas fa-lock"></i></p>
+        <h5>PAIEMENT SECURISÉ</h5>
+        <p>
+          Visa, mastercard, amex,<br />
+          paypal, wechat, apple pay.
+        </p>
+      </div>
 
-        </div>
+      <div class="colonne-service">
+        <p><i class="fas fa-history"></i></p>
+        <h5>RETOUR GRATUIT</h5>
+        <p>Échange et remboursement <br />sous 30 jours.</p>
+      </div>
 
-        <div class="colonne-service">
-            <p> <i class="fas fa-lock"></i> </p>
-            <h5>PAIEMENT SECURISÉ</h5>
-            <p>Visa, mastercard, amex,<br /> paypal, wechat, apple pay.</p>
-        </div>
-
-        <div class="colonne-service">
-            <p> <i class="fas fa-history"></i></p>
-            <h5> RETOUR GRATUIT</h5>
-            <p> Échange et remboursement <br />sous 30 jours.</p>
-        </div>
-
-        <div class="colonne-service">
-            <p> <i class="fas fa-store-alt"></i></p>
-            <h5>RETRAIT EN BOUTIQUE</h5>
-            <p> Réservez en ligne, <br /> disponible en boutique !</p>
-        </div>
-
+      <div class="colonne-service">
+        <p><i class="fas fa-store-alt"></i></p>
+        <h5>RETRAIT EN BOUTIQUE</h5>
+        <p>
+          Réservez en ligne, <br />
+          disponible en boutique !
+        </p>
+      </div>
     </div>
 
     <div class="newletter-footer">
-        <form action="post"> <label for="newletter"> </label>
-            <input type="email" name="newletter" class="mailnl" id="newletter" placeholder="recevez notre newletter">
-            <button type="submit" class="button"> S'inscrire</button>
-        </form>
+      <form action="post">
+        <label for="newletter"> </label>
+        <input
+          type="email"
+          name="newletter"
+          class="mailnl"
+          id="newletter"
+          placeholder="recevez notre newletter"
+        />
+        <button type="submit" class="button">S'inscrire</button>
+      </form>
     </div>
 
-
     <footer>
-        <!--FOOTER-->
-        <div class="contenu-footer">
-
-            <div class="colonne-footer">
-                <h4> Nos Services</h4>
-                <ul class="liste-services">
-                    <li> <a href="monpanier.html" title="Achetez-moi ! ">Mon panier </a></li>
-                    <li> <a href="personnalshopperpresse.html" title="Personnal Shopper">Personal-shopper</a></li>
-                    <li> <a href="personnalshopperpresse.html#ancrepresse" title="presse">Presse</a></li>
-                </ul>
-            </div>
-
-
-            <div class="colonne-footer">
-                <h4>Contact</h4>
-                <ul>
-                    <li><a href="quisommesnous.html" title="Qui sommes nous ? "> à propos</a></li>
-                    <li> <a href="tel:0680515668" title="telephone">telephone</a></li>
-                    <li><a href="mailto:contact@lpc.com" title="E-Mail"> Nous ecrire</a></li>
-                    <li><a href="quisommesnous.html#" title="Points de vente">Points de vente</a></li>
-                </ul>
-            </div>
-
-            <div class="colonne-footer">
-                <h4> Besoin d'aide ?</h4>
-                <ul class="liste-reseaux">
-                    <li> <a href="plandusite.html" title="Plan du site">Plan du site</a></li>
-                    <li> <a href="#" onclick="javascript:window.print()">Imprimer la page</a></li>
-                    <li> <a href="mentionslegales.html" title="Mentions légales">Mentions légales</a></li>
-                    <li> <a href="cgdv.html" title="Conditions Générales de Ventes">CGV</a></li>
-                </ul>
-            </div>
-
-
-
-            <div class="reseaux">
-                <a href="https://www.facebook.com/" title="Likez notre page !"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/" title="Abonnez-vous !"> <i class="fab fa-instagram"></i> </a>
-                <a href="https://www.twitter.com/" title="Suivez-nous!"> <i class="fab fa-twitter"></i></a>
-                <a href="https://www.youtube.com/" title="Lâchez un pouce bleu!"> <i class="fab fa-youtube"></i></a>
-            </div>
+      <!--FOOTER-->
+      <div class="contenu-footer">
+        <div class="colonne-footer">
+          <h4>Nos Services</h4>
+          <ul class="liste-services">
+            <li>
+              <a href="monpanier.html" title="Achetez-moi ! ">Mon panier </a>
+            </li>
+            <li>
+              <a href="personnalshopperpresse.html" title="Personnal Shopper"
+                >Personal-shopper</a
+              >
+            </li>
+            <li>
+              <a href="personnalshopperpresse.html#ancrepresse" title="presse"
+                >Presse</a
+              >
+            </li>
+          </ul>
         </div>
-    </footer> <!-- FIN DU FOOTER-->
 
-</body>
+        <div class="colonne-footer">
+          <h4>Contact</h4>
+          <ul>
+            <li>
+              <a href="quisommesnous.html" title="Qui sommes nous ? ">
+                à propos</a
+              >
+            </li>
+            <li><a href="tel:0680515668" title="telephone">telephone</a></li>
+            <li>
+              <a href="mailto:contact@lpc.com" title="E-Mail"> Nous ecrire</a>
+            </li>
+            <li>
+              <a href="quisommesnous.html#" title="Points de vente"
+                >Points de vente</a
+              >
+            </li>
+            <li>
+              <a href="recrutement.html" title="recrutement"> Recrutement</a>
+            </li>
+          </ul>
+        </div>
 
+        <div class="colonne-footer">
+          <h4>Besoin d'aide ?</h4>
+          <ul class="liste-reseaux">
+            <li>
+              <a href="plandusite.html" title="Plan du site">Plan du site</a>
+            </li>
+            <li>
+              <a href="#" onclick="javascript:window.print()"
+                >Imprimer la page</a
+              >
+            </li>
+            <li>
+              <a href="mentionslegales.html" title="Mentions légales"
+                >Mentions légales</a
+              >
+            </li>
+            <li>
+              <a href="cgdv.html" title="Conditions Générales de Ventes">CGV</a>
+            </li>
+          </ul>
+        </div>
 
+        <div class="reseaux">
+          <a href="https://www.facebook.com/" title="Likez notre page !"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/" title="Abonnez-vous !">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.twitter.com/" title="Suivez-nous!">
+            <i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.youtube.com/" title="Lâchez un pouce bleu!">
+            <i class="fab fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!-- FIN DU FOOTER-->
+  </body>
 </html>
