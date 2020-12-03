@@ -19,7 +19,7 @@ body {
 .containte {
   margin: 1.5% 10%;
 }
-
+ 
 /*LIEN*/
 a {
   color: rgb(221, 97, 83);
@@ -495,7 +495,7 @@ footer ul {
 }
 
 .ban-carou i {
-  font-size: 50px;
+  font-size: 45px;
   color: rgb(29, 6, 15);
   text-shadow: 4px 8px 4px rgba(252, 160, 201, 0.575);
 }
@@ -931,10 +931,12 @@ div {
 
 .formulairecontact input#sujet {
   width: 66%;
+  outline-style: none;
 }
 
 .formulairecontact input#message {
   width: 66%;
+  outline-style: none;
 }
 .formulairecontact textarea {
   width: 66%;
@@ -948,6 +950,7 @@ option {
   border: none;
   border-radius: 20px;
   width: 30%;
+  outline-style: none;
 }
 
 .nouscontacter .formulairecontact input:hover {
@@ -957,6 +960,7 @@ option {
   border: none;
   border-radius: 20px;
   width: 30%;
+  outline-style: none;
 }
 
 /* recrutement */
@@ -1146,7 +1150,11 @@ option {
 }
 .texteven {
   margin: 0px 90px;
-  text-align: justify;
+  text-align: center;
+}
+
+.texteven p i {
+  font-size: 25px;
 }
 .resaps {
   width: 45%;
@@ -1180,10 +1188,12 @@ option {
   border: none;
   border-radius: 20px;
   width: 40%;
+  outline-style: none;
 }
 
 .resaps .formulaire input select {
   margin-right: 15px;
+  outline-style: none;
 }
 
 .photops {
@@ -1254,6 +1264,7 @@ tbody tr td img {
 .pied-panier input {
   margin-top: 5px;
   padding: 10px 30px;
+  outline-style: none;
 }
 
 .pied-panier .codepromo button {
@@ -1263,6 +1274,7 @@ tbody tr td img {
 
 .pied-panier .codepromo input.zonerecherche {
   background-color: rgb(233, 233, 233);
+  outline-style: none;
 }
 
 .pied-panier .totalpanier .boutonrecherche {
@@ -1292,6 +1304,7 @@ tbody tr td img {
 }
 #imggrande input {
   width: 400px;
+  outline-style: none;
 }
 #imgnav {
   margin-left: 50px;
@@ -1604,15 +1617,16 @@ tbody tr td img {
   box-sizing: border-box;
 }
 
-.commentaires h5 {
+.commentaires .h5 {
   width: 100%;
   background-color: rgba(253, 211, 227, 0.404);
   margin: 0px;
   padding: 20px;
   box-sizing: border-box;
+  font-weight: bold;
 }
 
-.commentaires h5 .datecom {
+.commentaires .h5 .datecom {
   text-align: right;
   margin: 0px;
   font-style: italic;
@@ -1643,9 +1657,7 @@ tbody tr td img {
 
 .zoneavis .formulairecontact form {
   margin: 0px auto;
-}
-
-.zoneavis .formulairecontact input {
+  outline-style: none;
 }
 
 .zoneavis .formulairecontact p {
@@ -1659,6 +1671,7 @@ tbody tr td img {
   font-size: 1.5em;
   transition: color 0.4s;
   padding-top: 10px;
+  outline-style: none;
 }
 
 .zoneavis .formulairecontact textarea {
@@ -1680,6 +1693,15 @@ tbody tr td img {
   padding-bottom: 0px;
   display: flex;
   flex-wrap: wrap;
+}
+.commactu .h5 {
+  width: 100%;
+  background-color: rgba(253, 211, 227, 0.404);
+  margin: 0px;
+  padding: 20px;
+  padding-bottom: 2px;
+  box-sizing: border-box;
+  font-weight: bold;
 }
 
 .actualite .zoneactu .anciensactu {
@@ -1727,4 +1749,9 @@ tbody tr td img {
 
   font-style: italic;
   color: rgb(70, 65, 65);
+}
+/* FAQ mention leg*/
+
+#mentionleg {
+  text-align: justify;
 }
