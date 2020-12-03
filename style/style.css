@@ -19,7 +19,7 @@ body {
 .containte {
   margin: 1.5% 10%;
 }
- 
+
 /*LIEN*/
 a {
   color: rgb(221, 97, 83);
@@ -1754,4 +1754,229 @@ tbody tr td img {
 
 #mentionleg {
   text-align: justify;
+}
+
+/* MEDIA QUERIES !!!!!*/
+
+/* ECRAN TELEPHONE */
+
+@media (max-width: 800px) {
+  .containte {
+    width: 100%;
+    margin: 0px;
+  }
+  body {
+    width: 100%;
+  }
+
+  /* header */
+  .recherche {
+    display: none;
+  }
+  .logofix {
+    display: none;
+  }
+  .contenu-footer {
+    flex-wrap: wrap;
+  }
+  .hdx {
+    justify-content: left;
+  }
+  .hdx ul {
+    margin-bottom: 0px;
+    padding-left: 0px;
+  }
+  p.logo {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .logo img {
+    width: 100%;
+  }
+
+  /* index carousel */
+
+  .carousel {
+    width: 100%;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  /*index card */
+
+  .ban-carou {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10pt;
+  }
+  .carousel-caption {
+    margin-bottom: 0px;
+    bottom: 5px;
+  }
+
+  .ban-carou i {
+    display: none;
+  }
+  .cardsindex {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .cardsindex .cards {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  /* index boutique*/
+
+  .titreboutiquehome {
+    display: none;
+    opacity: 0;
+  }
+
+  /* commentaire */
+
+  .anciensavis {
+    width: 100%;
+  }
+
+  .zoneavis .formulairecontact {
+    width: 100%;
+    margin: 0px;
+  }
+  .commentaires {
+    margin-right: 0px;
+  }
+  /*footer*/
+  .contenu-footer {
+    display: block;
+  }
+
+  .contenu-footer {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .colonne-footer {
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .reseaux {
+    text-align: center;
+    margin: 0px;
+  }
+
+  /*mon compte*/
+
+  .client {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .nouveauclient {
+    width: 100%;
+  }
+
+  /*qui sommes nous*/
+  .block-bioqsn {
+    display: block;
+  }
+  .bioqsn {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .photoblock1-bioqsn {
+    width: 100%;
+  }
+
+  .block-adqsn {
+    display: block;
+  }
+  .adqsn {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .photoblock2-adqsn {
+    width: 100%;
+  }
+
+  .actualite .zoneactu .anciensactu .commactu {
+    width: 100%;
+    height: 275px;
+  }
+
+  /*personal shopper*/
+
+  .ban-plandusite {
+    margin: 0px;
+  }
+
+  .texteps {
+    width: 100%;
+  }
+
+  .resaps {
+    width: 100%;
+    margin-right: 0%;
+  }
+
+  .introps {
+    margin: 0px;
+  }
+
+  .photops img {
+    width: 100%;
+  }
+  .photops {
+    flex-wrap: wrap;
+  }
+
+  .texteven {
+    margin: 0px;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .texte-contact {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .formulairecontact form {
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  /*categorie garcon fille*/
+  .categorie-aside {
+    display: block;
+  }
+  .categorie-aside table {
+    width: 100%;
+  }
+  .cards {
+    width: 100%;
+  }
+
+  /* foire aux questions */
+
+  #mentionleg {
+    box-sizing: border-box;
+    margin: 2%;
+  }
+
+  #mentionleg H1 {
+    margin: 0px;
+    text-align: left;
+  }
+}
+
+/* cgdv */
+
+.corpscgdv {
+  margin: 2%;
 }
