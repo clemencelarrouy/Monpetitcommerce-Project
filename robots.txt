@@ -1,0 +1,8 @@
+#groupe 1
+User-agent: *
+Allow: /
+
+sitemap: https://clemencelarrouy.github.io/sitemap.xml
+
+
+
