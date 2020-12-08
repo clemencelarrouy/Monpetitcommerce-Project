@@ -1272,7 +1272,7 @@ option {
   border-collapse: collapse;
   box-shadow: 0 0 0.5em rgba(182, 179, 179, 0.747);
   border-radius: 15px;
-  
+
   width: 100%;
   margin: 20px auto;
 }
@@ -1898,7 +1898,9 @@ tbody tr td img {
     width: 100%;
     flex-wrap: wrap;
   }
- .entreepage { width : 100%}
+  .entreepage {
+    width: 100%;
+  }
   /* index boutique*/
 
   .titreboutiquehome {
@@ -1981,12 +1983,12 @@ tbody tr td img {
     box-sizing: border-box;
   }
 
-  .adqsn h1 { text-align : left}
+  .adqsn h1 {
+    text-align: left;
+  }
   .photoblock2-adqsn {
     width: 100%;
   }
-
-  
 
   .actualite .zoneactu .anciensactu .commactu {
     width: 100%;
@@ -1994,9 +1996,13 @@ tbody tr td img {
     box-sizing: border-box;
   }
 
-  .actualite .zoneactu .anciensactu .commactu p { padding : 0px}
-/*panier */ 
-.tableau-style { overflow-x: scroll;}
+  .actualite .zoneactu .anciensactu .commactu p {
+    padding: 0px;
+  }
+  /*panier */
+  .tableau-style {
+    overflow-x: scroll;
+  }
   /*personal shopper*/
 
   .ban-plandusite {
@@ -2030,7 +2036,9 @@ tbody tr td img {
   .video {
     width: 100%;
   }
-  .divvideo { width : 100%;}
+  .divvideo {
+    width: 100%;
+  }
 
   .texte-contact {
     width: 100%;
@@ -2151,9 +2159,7 @@ tbody tr td img {
     display: none;
     opacity: 0;
   }
-  
-  
-  }
+
   /* commentaire */
 
   .anciensavis {
@@ -2170,11 +2176,15 @@ tbody tr td img {
   .commentaires {
     margin-right: 0px;
   }
-  /* video */ 
+  /* video */
 
-  .divvideo { width : 80%;}
+  .divvideo {
+    width: 80%;
+  }
   /*footer*/
-  .ban-service { margin : 0px }
+  .ban-service {
+    margin: 0px;
+  }
   .contenu-footer {
     display: block;
   }
@@ -2217,7 +2227,10 @@ tbody tr td img {
   .photoblock1-bioqsn {
     width: 100%;
   }
-.carte { width: 100%;margin : 1px auto }
+  .carte {
+    width: 100%;
+    margin: 1px auto;
+  }
   .block-adqsn {
     display: block;
   }
@@ -2290,8 +2303,9 @@ tbody tr td img {
     width: 100%;
   }
 
-  .card { width: 100%;
-  } 
+  .card {
+    width: 100%;
+  }
 
   /* foire aux questions */
 
