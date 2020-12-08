@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"> 
+<!-- index-->
 	<url>
 	   <loc>https://clemencelarrouy.github.io/index.html</loc>
 	   <priority>1.00</priority>
 	</url>
+  <!--pages-->
 	<url>
 	   <loc>https://clemencelarrouy.github.io/pages/moncompte.html</loc>
 	   <priority>0.90</priority>
@@ -36,6 +39,15 @@
   <loc>https://clemencelarrouy.github.io/pages/personnalshopperpresse.html</loc>
   <priority>0.90</priority>
 </url>
+<url>
+  <loc>https://clemencelarrouy.github.io/pages/faq.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://clemencelarrouy.github.io/pages/recrutement.html</loc>
+  <priority>0.70</priority>
+</url>
+<!-- Pages catégories-->
 <url>
   <loc>https://clemencelarrouy.github.io/pages/Garçons.html</loc>
   <priority>0.90</priority>
@@ -76,6 +88,7 @@
   <loc>https://clemencelarrouy.github.io/pages/robesf.html</loc>
   <priority>0.90</priority>
 </url>
+<!-- Pages fiches produits-->
 <url>
   <loc>https://clemencelarrouy.github.io/pages/produits/garcon-manteau-1.html</loc>
   <priority>0.80</priority>
@@ -150,12 +163,54 @@
   <loc>https://clemencelarrouy.github.io/pages/produits/fille-robe-4.html</loc>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://clemencelarrouy.github.io/pages/faq.html</loc>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://clemencelarrouy.github.io/pages/recrutement.html</loc>
-  <priority>0.70</priority>
-</url>
+
+<!-- Photos logo-->
+ <image:image>
+      <image:loc>https://clemencelarrouy.github.io/photos/logo/logolpc.png</image:loc>
+  </image:image>
+
+ <image:image>
+      <image:loc>https://clemencelarrouy.github.io/photos/logo/logomenu.png</image:loc>
+  </image:image>
+
+<!-- Photos titre index-->
+  <image:image>
+     <image:loc>https://clemencelarrouy.github.io/photos/promo/homegarcon.jpg</image:loc>
+ </image:image>
+ <image:image>
+     <image:loc>https://clemencelarrouy.github.io/photos/promo/homefille.jpg</image:loc>
+ </image:image>
+ <image:image>
+     <image:loc>https://clemencelarrouy.github.io/photos/boutique/homeboutique.jpg</image:loc>
+ </image:image>
+
+
+<!-- Photos titre catégories-->
+ <image:image>
+    <image:loc>https://clemencelarrouy.github.io/photos/categorie-produit/ban-produit-garcon3.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://clemencelarrouy.github.io/photos/categorie-produit/ban-produit-fille4.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://clemencelarrouy.github.io/photos/categorie-produit/ban-produit-fille1.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://clemencelarrouy.github.io/photos/categorie-produit/ban-produit-garcon2.jpg</image:loc>
+</image:image>
+
+<!-- Photos titre bannières-->
+<image:image>
+    <image:loc>https://clemencelarrouy.github.io/photos/boutique/quisnban.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://clemencelarrouy.github.io/photos/personalshopper/ban-personalshopper2.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://clemencelarrouy.github.io/photos/boutique/ban-contact.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://clemencelarrouy.github.io/photos/boutique/arbre_plan%20.jpg</image:loc>
+</image:image>
+
 </urlset>
